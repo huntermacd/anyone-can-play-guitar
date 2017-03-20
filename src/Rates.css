@@ -1,0 +1,12 @@
+.Rates table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.Rates table,
+.Rates th,
+.Rates td {
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+}

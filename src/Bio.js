@@ -12,6 +12,7 @@ const Bio = () => {
         show off their skills in front of an audience of friends and family. I
         believe music is a language that everyone can learn and use to express
         themselves. And it's a ton of fun, too!</p>
+      <img src="huntermacdermut.jpg" alt="Photograph of Hunter MacDermut" />
       <p>I've been playing guitar since 1999, and played both piano and the drum
         set for years before that. I've studied with acclaimed master teachers
         Kevin White, Stefan Stuber, Amy Bowles, Tom Yoder, and Jim Lichens.

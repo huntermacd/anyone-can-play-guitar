@@ -12,23 +12,31 @@ const App = () => {
     <Router>
       <div className="App">
         <div className="App-header">
-          <Link to="/"><img src={ logo } className="App-logo" alt="logo" /></Link>
+          <Link to="/"><img src={ logo } className="App-logo" alt="Anyone Can Play Guitar logo" /></Link>
           <nav>
             <ul>
               <li><Link to="/lessons">Lessons</Link></li>
               <li><Link to="/bio">Bio</Link></li>
               <li><Link to="/rates">Rates</Link></li>
-              <li><Link to="/resources">Resources</Link></li>
+              {/*<li><Link to="/resources">Resources</Link></li>*/}
             </ul>
           </nav>
         </div>
         <div className="App-intro">
           <p>Guitar lessons in and around Boulder, CO.</p>
           <p>Call or email today to setup your first lesson:</p>
-          <ul>
-            <li><a href="tel:+19192087511">(919) 208-7511</a></li>
-            <li><a href="mailto:ne1canplayguitar@gmail.com">ne1canplayguitar@gmail.com</a></li>
-          </ul>
+          <div className="App-contact">
+            <ul>
+              <li>
+                <i className="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:+19192087511">(919) 208-7511</a>
+              </li>
+              <li>
+                <i className="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="mailto:ne1canplayguitar@gmail.com">ne1canplayguitar@gmail.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="App-content">
           <Route exact path="/lessons" component={ Lessons }/>

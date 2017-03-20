@@ -1,0 +1,60 @@
+.App {
+  max-width: 538px;
+  margin: 0 auto;
+}
+
+.App footer {
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+}
+
+.App-header img {
+  width: 100%;
+}
+
+.App-header nav {
+  margin: 30px 0;
+}
+
+.App-header nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.App-header nav ul li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.App-intro {
+  text-align: center;
+}
+
+.App-intro p {
+  margin: 0;
+}
+
+.App-contact {
+  width: 225px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.App-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-contact ul li {
+  padding: 5px;
+}
+
+.App-contact ul li i {
+  margin-right: 15px;
+}
+
+.App-content {
+  padding-bottom: 15px;
+}
