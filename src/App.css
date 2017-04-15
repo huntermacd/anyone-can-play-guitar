@@ -1,4 +1,23 @@
-.App {
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.fa-youtube-play {
+  color: red;
+  font-size: 3em;
+}
+
+/*.App {
   max-width: 538px;
   margin: 0 auto;
 }
@@ -57,4 +76,4 @@
 
 .App-content {
   padding-bottom: 15px;
-}
+}*/
